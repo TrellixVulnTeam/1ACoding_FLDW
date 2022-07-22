@@ -9,3 +9,4 @@ This is to download any necessary libraries, for example the library streamlit w
 This is to run the streamlit python file, etc..... Right clicking and run on an IDE ---- WILL NOT WORK ----- You must type in the terminal "streamlit run filename.py" This will open a local host onto a browser on your computer
 
 ##### That is the basic commands needed for Streamlit
+git push --force origin master/main if necessary when uploading to github
