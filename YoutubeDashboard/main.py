@@ -6,7 +6,6 @@ import streamlit as st
 from datetime import datetime
 
 def load_data():
-    """ Loads in 4 dataframes and does light feature engineering"""
     df_agg = pd.read_csv('Aggregated_Metrics_By_Video.csv').iloc[1:,:]
     df_agg.columns = ['Video','Video title','Video publish time','Comments added','Shares','Dislikes','Likes',
                       'Subscribers lost','Subscribers gained','RPM(USD)','CPM(USD)','Average % viewed','Average view duration',
